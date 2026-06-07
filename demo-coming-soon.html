@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Belum Tersedia</title>
+    <style>
+      /* --- RESET & BASE STYLES --- */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #ffde4d; /* Warna kuning khas neo-brutalisme */
+        font-family: "Arial Black", "Impact", sans-serif;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding: 20px;
+      }
+
+      /* --- NEO BRUTALISM CONTAINER --- */
+      .card-container {
+        background-color: #ff5a5f; /* Kontras warna merah/pink cerah */
+        border: 8px solid #000000;
+        padding: 50px 40px;
+        max-width: 800px;
+        text-align: center;
+        /* Bayangan tegas tanpa blur khas neo-brutalisme */
+        box-shadow: 16px 16px 0px 0px #000000;
+        position: relative;
+        transform: rotate(-1deg); /* Sedikit miring untuk kesan raw/brutal */
+        animation: float 4s ease-in-out infinite;
+      }
+
+      /* --- TEXT ANIMATION & STYLES --- */
+      .brutal-text {
+        color: #ffffff;
+        font-size: 3rem;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        -webkit-text-stroke: 3px #000000;
+        text-shadow: 6px 6px 0px #000000;
+        position: relative;
+        display: inline-block;
+        animation: glitch 1s linear infinite;
+        margin-bottom: 40px; /* Jarak ke tombol */
+      }
+
+      /* --- NEO BRUTALISM BUTTON --- */
+      .brutal-btn {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #00ffcc; /* Hijau neon kontras */
+        color: #000000;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        border: 5px solid #000000;
+        box-shadow: 8px 8px 0px #000000;
+        transition: all 0.15s ease;
+        cursor: pointer;
+      }
+
+      /* Animasi saat tombol disorot (Hover) */
+      .brutal-btn:hover {
+        transform: translate(-4px, -4px);
+        box-shadow: 12px 12px 0px #000000;
+        background-color: #00ffaa;
+      }
+
+      /* Animasi saat tombol ditekan (Active) */
+      .brutal-btn:active {
+        transform: translate(8px, 8px);
+        box-shadow: 0px 0px 0px #000000;
+      }
+
+      /* --- DECORATIVE BADGE --- */
+      .badge {
+        background-color: #3f51b5; /* Biru elektrik */
+        color: #fff;
+        border: 4px solid #000;
+        padding: 8px 16px;
+        display: inline-block;
+        font-size: 1.2rem;
+        position: absolute;
+        top: -30px;
+        right: 20px;
+        transform: rotate(5deg);
+        box-shadow: 6px 6px 0px #000;
+      }
+
+      /* --- ANIMATIONS CODES --- */
+      /* Efek melayang perlahan untuk container */
+      @keyframes float {
+        0% {
+          transform: translateY(0px) rotate(-1deg);
+          box-shadow: 16px 16px 0px 0px #000000;
+        }
+        50% {
+          transform: translateY(-10px) rotate(1deg);
+          box-shadow: 16px 26px 0px 0px #000000;
+        }
+        100% {
+          transform: translateY(0px) rotate(-1deg);
+          box-shadow: 16px 16px 0px 0px #000000;
+        }
+      }
+
+      /* Efek getar/glitch brutal pada teks */
+      @keyframes glitch {
+        0% {
+          transform: translate(0);
+          text-shadow: 6px 6px 0px #000000;
+        }
+        20% {
+          transform: translate(-3px, 3px);
+          text-shadow: 8px 4px 0px #000000;
+        }
+        40% {
+          transform: translate(-3px, -3px);
+          color: #00ffcc;
+        }
+        60% {
+          transform: translate(3px, 3px);
+          color: #ffffff;
+        }
+        80% {
+          transform: translate(3px, -3px);
+          text-shadow: 4px 8px 0px #000000;
+        }
+        100% {
+          transform: translate(0);
+          text-shadow: 6px 6px 0px #000000;
+        }
+      }
+
+      /* Responsive design untuk perangkat mobile */
+      @media (max-width: 600px) {
+        .brutal-text {
+          font-size: 1.8rem;
+          -webkit-text-stroke: 2px #000000;
+          margin-bottom: 30px;
+        }
+        .card-container {
+          padding: 40px 20px;
+          box-shadow: 10px 10px 0px 0px #000000;
+        }
+        .badge {
+          font-size: 0.9rem;
+          top: -25px;
+        }
+        .brutal-btn {
+          font-size: 1.1rem;
+          padding: 12px 24px;
+          border: 4px solid #000;
+          box-shadow: 6px 6px 0px #000;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="badge">STATUS: 404</div>
+
+      <h1 class="brutal-text">HALAMAN DEMO UNTUK PROJECT INI BELUM ADA</h1>
+
+      <div>
+        <a href="index.html" class="brutal-btn">← KEMBALI KE BERANDA</a>
+      </div>
+    </div>
+  </body>
+</html>
