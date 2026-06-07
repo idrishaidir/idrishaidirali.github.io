@@ -1,0 +1,1455 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Idris Haidir Ali</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#f0f0f0] font-['Inter'] overflow-x-hidden">
+    <!-- Navigation -->
+    <nav
+      class="fixed top-0 w-full z-50 bg-[#ff6b6b] border-b-4 border-black neo-shadow"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex-shrink-0">
+            <h1
+              class="font-['Space_Grotesk'] font-bold text-2xl text-black tracking-tight hover:translate-x-1 transition-transform cursor-pointer"
+            >
+              IDRIS HAIDIR
+              <span class="bg-black text-white px-2 py-1 ml-1">ALI</span>
+            </h1>
+          </div>
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline space-x-4">
+              <a
+                href="#home"
+                class="neo-btn bg-[#4ecdc4] text-black px-4 py-2 font-bold hover:translate-y-[-2px] transition-transform"
+                >Beranda</a
+              >
+              <a
+                href="#projects"
+                class="neo-btn bg-[#ffe66d] text-black px-4 py-2 font-bold hover:translate-y-[-2px] transition-transform"
+                >Proyek</a
+              >
+              <a
+                href="#skills"
+                class="neo-btn bg-[#95e1d3] text-black px-4 py-2 font-bold hover:translate-y-[-2px] transition-transform"
+                >Keahlian</a
+              >
+              <a
+                href="#experience"
+                class="neo-btn bg-[#f38181] text-black px-4 py-2 font-bold hover:translate-y-[-2px] transition-transform"
+                >Pengalaman</a
+              >
+              <a
+                href="#certificates"
+                class="neo-btn bg-[#aa96da] text-black px-4 py-2 font-bold hover:translate-y-[-2px] transition-transform"
+                >Sertifikat</a
+              >
+            </div>
+          </div>
+          <div class="md:hidden">
+            <button
+              id="mobile-menu-btn"
+              class="neo-btn bg-black text-white px-3 py-2 font-bold"
+            >
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-[#ff6b6b] border-t-4 border-black"
+      >
+        <div class="px-2 pt-2 pb-3 space-y-2">
+          <a
+            href="#home"
+            class="block neo-btn bg-[#4ecdc4] text-black px-3 py-2 font-bold text-center"
+            >Beranda</a
+          >
+          <a
+            href="#projects"
+            class="block neo-btn bg-[#ffe66d] text-black px-3 py-2 font-bold text-center"
+            >Proyek</a
+          >
+          <a
+            href="#skills"
+            class="block neo-btn bg-[#95e1d3] text-black px-3 py-2 font-bold text-center"
+            >Keahlian</a
+          >
+          <a
+            href="#experience"
+            class="block neo-btn bg-[#f38181] text-black px-3 py-2 font-bold text-center"
+            >Pengalaman</a
+          >
+          <a
+            href="#certificates"
+            class="block neo-btn bg-[#aa96da] text-black px-3 py-2 font-bold text-center"
+            >Sertifikat</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="pt-24 pb-12 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center"
+    >
+      <div class="max-w-7xl mx-auto w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div class="space-y-6 slide-in-left">
+            <div
+              class="inline-block bg-[#ffe66d] border-4 border-black px-4 py-2 font-bold text-lg neo-shadow rotate-[-2deg]"
+            >
+              👋 Halo, Saya Developer!
+            </div>
+            <h1
+              class="font-['Space_Grotesk'] text-5xl md:text-7xl font-bold text-black leading-tight"
+            >
+              Saya Membangun<br />
+              <span
+                class="bg-[#ff6b6b] px-2 border-4 border-black inline-block rotate-1"
+                >Web</span
+              >
+              <span
+                class="bg-[#4ecdc4] px-2 border-4 border-black inline-block rotate-[-1deg]"
+                >Aplikasi</span
+              >
+              <br />Yang Keren
+            </h1>
+            <p
+              class="text-xl text-gray-800 max-w-lg font-medium border-l-4 border-black pl-4"
+            >
+              Seorang pengembang web yang passionate dalam menciptakan
+              pengalaman digital yang menarik dan fungsional.
+            </p>
+            <div class="flex flex-wrap gap-4 pt-4">
+              <a
+                href="#projects"
+                class="neo-btn bg-black text-white px-8 py-4 font-bold text-lg hover:translate-x-2 hover:translate-y-[-2px] transition-transform inline-flex items-center gap-2"
+              >
+                Lihat Proyek
+                <svg
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#contact"
+                class="neo-btn bg-white text-black px-8 py-4 font-bold text-lg border-4 border-black hover:translate-x-2 hover:translate-y-[-2px] transition-transform"
+              >
+                Hubungi Saya
+              </a>
+            </div>
+            <div class="flex gap-4 pt-6">
+              <a
+                href="https://github.com/idrishaidir"
+                class="neo-icon bg-[#333] text-white p-3 border-4 border-black hover:rotate-12 transition-transform"
+              >
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/idris-haidir-ali-724a60296/"
+                class="neo-icon bg-[#0077b5] text-white p-3 border-4 border-black hover:rotate-12 transition-transform"
+              >
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="mailto:idris.haidir1@gmail.com"
+                class="neo-icon bg-[#ea4335] text-white p-3 border-4 border-black hover:rotate-12 transition-transform"
+              >
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 10.548l6.545-5.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="relative slide-in-right">
+            <div
+              class="neo-card bg-white p-2 border-4 border-black rotate-2 hover:rotate-0 transition-transform duration-500"
+            >
+              <div
+                class="bg-[#f8f9fa] border-4 border-dashed border-gray-300 p-8 text-center"
+              >
+                <div
+                  class="w-48 h-48 mx-auto bg-[#ff6b6b] border-4 border-black rounded-full flex items-center justify-center mb-4 neo-shadow"
+                >
+                  <span class="text-6xl"><img src="img/me.png" alt="" /></span>
+                </div>
+                <h3 class="font-['Space_Grotesk'] font-bold text-2xl">
+                  IDRIS HAIDIR ALI
+                </h3>
+                <p class="text-gray-600 font-medium">
+                  WEB Developer dan AI Enginer
+                </p>
+              </div>
+            </div>
+            <!-- Decorative Elements -->
+            <div
+              class="absolute -top-4 -right-4 w-16 h-16 bg-[#ffe66d] border-4 border-black neo-shadow animate-bounce"
+            ></div>
+            <div
+              class="absolute -bottom-4 -left-4 w-12 h-12 bg-[#4ecdc4] border-4 border-black neo-shadow animate-pulse"
+            ></div>
+            <div
+              class="absolute top-1/2 -right-8 w-8 h-8 bg-[#f38181] border-4 border-black neo-shadow animate-ping"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section
+      id="projects"
+      class="py-20 px-4 sm:px-6 lg:px-8 bg-[#ffe66d] border-y-4 border-black"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 scroll-reveal">
+          <div
+            class="inline-block bg-black text-white px-4 py-2 font-bold text-lg mb-4 border-4 border-white neo-shadow rotate-1"
+          >
+            💼 PORTFOLIO
+          </div>
+          <h2
+            class="font-['Space_Grotesk'] text-4xl md:text-6xl font-bold text-black mb-4"
+          >
+            Proyek Saya
+          </h2>
+          <p class="text-xl text-gray-800 max-w-2xl mx-auto font-medium">
+            Beberapa proyek yang telah saya kerjakan
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project 1 -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 hover:translate-y-[-8px] transition-transform duration-300 scroll-reveal group"
+          >
+            <div
+              class="bg-[#ff6b6b] border-4 border-black h-48 mb-4 flex items-center justify-center overflow-hidden relative"
+            >
+              <span class="text-6xl group-hover:scale-125 transition-transform"
+                >🛒</span
+              >
+              <div
+                class="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs font-bold"
+              >
+                2026
+              </div>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-2xl font-bold mb-2">
+              Steganography
+            </h3>
+            <p class="text-gray-700 mb-4 font-medium">
+              Platform keamanan dengan steganography dan 3 layer enkripsi
+              menggunakan vigenere cipher-aes256-chacha20
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span
+                class="bg-[#aa96da] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Python</span
+              >
+              <span
+                class="bg-[#ffe66d] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Flask</span
+              >
+              <span
+                class="bg-[#ff6b6b] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Tailwind</span
+              >
+            </div>
+            <div class="flex gap-2">
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-black text-white py-2 text-center font-bold text-sm hover:bg-gray-800 transition-colors"
+                >Demo</a
+              >
+              <a
+                href="https://github.com/idrishaidir/steganography"
+                class="neo-btn flex-1 bg-white text-black border-4 border-black py-2 text-center font-bold text-sm hover:bg-gray-100 transition-colors"
+                >Kode</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 hover:translate-y-[-8px] transition-transform duration-300 scroll-reveal group"
+            style="transition-delay: 100ms"
+          >
+            <div
+              class="bg-[#4ecdc4] border-4 border-black h-48 mb-4 flex items-center justify-center overflow-hidden relative"
+            >
+              <span class="text-6xl group-hover:scale-125 transition-transform"
+                >📊</span
+              >
+              <div
+                class="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs font-bold"
+              >
+                2024
+              </div>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-2xl font-bold mb-2">
+              Analisis Sentimen dan Emosi
+            </h3>
+            <p class="text-gray-700 mb-4 font-medium">
+              Platform analisis sentimen dan emosi pada platform x menggunakan
+              model IndoBERT yang sudah di Fine-tuning
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span
+                class="bg-[#ff6b6b] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Python</span
+              >
+              <span
+                class="bg-[#95e1d3] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Flask</span
+              >
+              <span
+                class="bg-[#f38181] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Tailwind</span
+              >
+            </div>
+            <div class="flex gap-2">
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-black text-white py-2 text-center font-bold text-sm hover:bg-gray-800 transition-colors"
+                >Demo</a
+              >
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-white text-black border-4 border-black py-2 text-center font-bold text-sm hover:bg-gray-100 transition-colors"
+                >Kode</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 hover:translate-y-[-8px] transition-transform duration-300 scroll-reveal group"
+            style="transition-delay: 200ms"
+          >
+            <div
+              class="bg-[#aa96da] border-4 border-black h-48 mb-4 flex items-center justify-center overflow-hidden relative"
+            >
+              <span class="text-6xl group-hover:scale-125 transition-transform"
+                >📝</span
+              >
+              <div
+                class="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs font-bold"
+              >
+                2023
+              </div>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-2xl font-bold mb-2">
+              Sistem Informasi Manajemen dan Transaksi
+            </h3>
+            <p class="text-gray-700 mb-4 font-medium">
+              Aplikasi SIMANIS adalah sistem manajemen stok barang, pencatatan
+              transaksi, dan pelaporan keuangan
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span
+                class="bg-[#ffe66d] border-2 border-black px-2 py-1 text-xs font-bold"
+                >PHP</span
+              >
+              <span
+                class="bg-[#4ecdc4] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Laravel</span
+              >
+              <span
+                class="bg-[#ff6b6b] border-2 border-black px-2 py-1 text-xs font-bold"
+                >MySQL</span
+              >
+            </div>
+            <div class="flex gap-2">
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-black text-white py-2 text-center font-bold text-sm hover:bg-gray-800 transition-colors"
+                >Demo</a
+              >
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-white text-black border-4 border-black py-2 text-center font-bold text-sm hover:bg-gray-100 transition-colors"
+                >Kode</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <!-- <div
+            class="neo-card bg-white border-4 border-black p-6 hover:translate-y-[-8px] transition-transform duration-300 scroll-reveal group"
+          >
+            <div
+              class="bg-[#f38181] border-4 border-black h-48 mb-4 flex items-center justify-center overflow-hidden relative"
+            >
+              <span class="text-6xl group-hover:scale-125 transition-transform"
+                >🎮</span
+              >
+              <div
+                class="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs font-bold"
+              >
+                2023
+              </div>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-2xl font-bold mb-2">
+              Game Web App
+            </h3>
+            <p class="text-gray-700 mb-4 font-medium">
+              Game browser interaktif dengan multiplayer support menggunakan
+              WebSocket.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span
+                class="bg-[#aa96da] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Phaser.js</span
+              >
+              <span
+                class="bg-[#95e1d3] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Socket.io</span
+              >
+              <span
+                class="bg-[#ffe66d] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Express</span
+              >
+            </div>
+            <div class="flex gap-2">
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-black text-white py-2 text-center font-bold text-sm hover:bg-gray-800 transition-colors"
+                >Demo</a
+              >
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-white text-black border-4 border-black py-2 text-center font-bold text-sm hover:bg-gray-100 transition-colors"
+                >Kode</a
+              >
+            </div>
+          </div> -->
+
+          <!-- Project 5 -->
+          <!-- <div
+            class="neo-card bg-white border-4 border-black p-6 hover:translate-y-[-8px] transition-transform duration-300 scroll-reveal group"
+            style="transition-delay: 100ms"
+          >
+            <div
+              class="bg-[#95e1d3] border-4 border-black h-48 mb-4 flex items-center justify-center overflow-hidden relative"
+            >
+              <span class="text-6xl group-hover:scale-125 transition-transform"
+                >🏥</span
+              >
+              <div
+                class="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs font-bold"
+              >
+                2023
+              </div>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-2xl font-bold mb-2">
+              Health Tracker
+            </h3>
+            <p class="text-gray-700 mb-4 font-medium">
+              Aplikasi tracking kesehatan dengan integrasi wearable devices dan
+              reminder.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span
+                class="bg-[#ff6b6b] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Flutter</span
+              >
+              <span
+                class="bg-[#4ecdc4] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Dart</span
+              >
+              <span
+                class="bg-[#aa96da] border-2 border-black px-2 py-1 text-xs font-bold"
+                >REST API</span
+              >
+            </div>
+            <div class="flex gap-2">
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-black text-white py-2 text-center font-bold text-sm hover:bg-gray-800 transition-colors"
+                >Demo</a
+              >
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-white text-black border-4 border-black py-2 text-center font-bold text-sm hover:bg-gray-100 transition-colors"
+                >Kode</a
+              >
+            </div>
+          </div> -->
+
+          <!-- Project 6 -->
+          <!-- <div
+            class="neo-card bg-white border-4 border-black p-6 hover:translate-y-[-8px] transition-transform duration-300 scroll-reveal group"
+            style="transition-delay: 200ms"
+          >
+            <div
+              class="bg-[#ffe66d] border-4 border-black h-48 mb-4 flex items-center justify-center overflow-hidden relative"
+            >
+              <span class="text-6xl group-hover:scale-125 transition-transform"
+                >🤖</span
+              >
+              <div
+                class="absolute top-2 right-2 bg-black text-white px-2 py-1 text-xs font-bold"
+              >
+                2024
+              </div>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-2xl font-bold mb-2">
+              AI Chat Bot
+            </h3>
+            <p class="text-gray-700 mb-4 font-medium">
+              Chatbot AI dengan NLP untuk customer service otomatis dan
+              integrasi WhatsApp.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span
+                class="bg-[#95e1d3] border-2 border-black px-2 py-1 text-xs font-bold"
+                >Python</span
+              >
+              <span
+                class="bg-[#f38181] border-2 border-black px-2 py-1 text-xs font-bold"
+                >TensorFlow</span
+              >
+              <span
+                class="bg-[#ffe66d] border-2 border-black px-2 py-1 text-xs font-bold"
+                >FastAPI</span
+              >
+            </div>
+            <div class="flex gap-2">
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-black text-white py-2 text-center font-bold text-sm hover:bg-gray-800 transition-colors"
+                >Demo</a
+              >
+              <a
+                href="#"
+                class="neo-btn flex-1 bg-white text-black border-4 border-black py-2 text-center font-bold text-sm hover:bg-gray-100 transition-colors"
+                >Kode</a
+              >
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section
+      id="skills"
+      class="py-20 px-4 sm:px-6 lg:px-8 bg-[#4ecdc4] border-b-4 border-black"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 scroll-reveal">
+          <div
+            class="inline-block bg-black text-white px-4 py-2 font-bold text-lg mb-4 border-4 border-white neo-shadow rotate-[-1deg]"
+          >
+            🛠️ KEAHLIAN
+          </div>
+          <h2
+            class="font-['Space_Grotesk'] text-4xl md:text-6xl font-bold text-black mb-4"
+          >
+            Tech Stack
+          </h2>
+          <p class="text-xl text-gray-800 max-w-2xl mx-auto font-medium">
+            Teknologi dan tools yang saya kuasai
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Frontend -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 scroll-reveal"
+          >
+            <div
+              class="bg-[#ff6b6b] border-4 border-black w-14 h-14 flex items-center justify-center mb-4 neo-shadow"
+            >
+              <span class="text-2xl">💻</span>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-4">
+              Frontend
+            </h3>
+            <ul class="space-y-2">
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">HTML5 / CSS3</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">JavaScript (ES6+)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">Tailwind CSS</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Backend -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 scroll-reveal"
+            style="transition-delay: 100ms"
+          >
+            <div
+              class="bg-[#ffe66d] border-4 border-black w-14 h-14 flex items-center justify-center mb-4 neo-shadow"
+            >
+              <span class="text-2xl">⚙️</span>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-4">
+              Backend
+            </h3>
+            <ul class="space-y-2">
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">Node.js</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">Python</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">PHP / Laravel</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Database -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 scroll-reveal"
+            style="transition-delay: 200ms"
+          >
+            <div
+              class="bg-[#aa96da] border-4 border-black w-14 h-14 flex items-center justify-center mb-4 neo-shadow"
+            >
+              <span class="text-2xl">🗄️</span>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-4">
+              Database
+            </h3>
+            <ul class="space-y-2">
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">MySQL</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tools -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 scroll-reveal"
+            style="transition-delay: 300ms"
+          >
+            <div
+              class="bg-[#f38181] border-4 border-black w-14 h-14 flex items-center justify-center mb-4 neo-shadow"
+            >
+              <span class="text-2xl">🧰</span>
+            </div>
+            <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-4">
+              Tools & DevOps
+            </h3>
+            <ul class="space-y-2">
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">Git / GitHub</span>
+              </li>
+
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">Figma / UI Design</span>
+              </li>
+
+              <li class="flex items-center gap-2">
+                <div class="w-3 h-3 bg-black border-2 border-white"></div>
+                <span class="font-bold">Linux</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skill Bars -->
+        <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div
+            class="neo-card bg-white border-4 border-black p-6 scroll-reveal"
+          >
+            <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-6">
+              Programming Languages
+            </h3>
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-bold">JavaScript / TypeScript</span>
+                  <span class="font-bold">45%</span>
+                </div>
+                <div class="w-full bg-gray-200 border-2 border-black h-6">
+                  <div
+                    class="skill-bar bg-[#ff6b6b] h-full border-r-2 border-black"
+                    style="width: 0%"
+                    data-width="45%"
+                  ></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-bold">Python</span>
+                  <span class="font-bold">85%</span>
+                </div>
+                <div class="w-full bg-gray-200 border-2 border-black h-6">
+                  <div
+                    class="skill-bar bg-[#4ecdc4] h-full border-r-2 border-black"
+                    style="width: 0%"
+                    data-width="85%"
+                  ></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-bold">PHP</span>
+                  <span class="font-bold">80%</span>
+                </div>
+                <div class="w-full bg-gray-200 border-2 border-black h-6">
+                  <div
+                    class="skill-bar bg-[#ffe66d] h-full border-r-2 border-black"
+                    style="width: 0%"
+                    data-width="80%"
+                  ></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between mb-1">
+                  <span class="font-bold">MySQL</span>
+                  <span class="font-bold">70%</span>
+                </div>
+                <div class="w-full bg-gray-200 border-2 border-black h-6">
+                  <div
+                    class="skill-bar bg-[#aa96da] h-full border-r-2 border-black"
+                    style="width: 0%"
+                    data-width="70%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="neo-card bg-white border-4 border-black p-6 scroll-reveal"
+          >
+            <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-6">
+              Soft Skills
+            </h3>
+            <div class="flex flex-wrap gap-3">
+              <span
+                class="neo-tag bg-[#ff6b6b] border-4 border-black px-4 py-2 font-bold hover:rotate-3 transition-transform cursor-default"
+                >Problem Solving</span
+              >
+              <span
+                class="neo-tag bg-[#4ecdc4] border-4 border-black px-4 py-2 font-bold hover:-rotate-3 transition-transform cursor-default"
+                >Team Leadership</span
+              >
+              <span
+                class="neo-tag bg-[#ffe66d] border-4 border-black px-4 py-2 font-bold hover:rotate-2 transition-transform cursor-default"
+                >Communication</span
+              >
+              <span
+                class="neo-tag bg-[#aa96da] border-4 border-black px-4 py-2 font-bold hover:-rotate-2 transition-transform cursor-default"
+                >Project Management</span
+              >
+              <span
+                class="neo-tag bg-[#f38181] border-4 border-black px-4 py-2 font-bold hover:rotate-3 transition-transform cursor-default"
+                >Agile / Scrum</span
+              >
+              <span
+                class="neo-tag bg-[#95e1d3] border-4 border-black px-4 py-2 font-bold hover:-rotate-3 transition-transform cursor-default"
+                >Critical Thinking</span
+              >
+              <span
+                class="neo-tag bg-[#ff6b6b] border-4 border-black px-4 py-2 font-bold hover:rotate-2 transition-transform cursor-default"
+                >Time Management</span
+              >
+              <span
+                class="neo-tag bg-[#4ecdc4] border-4 border-black px-4 py-2 font-bold hover:-rotate-2 transition-transform cursor-default"
+                >Adaptability</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section
+      id="experience"
+      class="py-20 px-4 sm:px-6 lg:px-8 bg-[#f38181] border-b-4 border-black"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 scroll-reveal">
+          <div
+            class="inline-block bg-black text-white px-4 py-2 font-bold text-lg mb-4 border-4 border-white neo-shadow rotate-1"
+          >
+            🏢 PENGALAMAN
+          </div>
+          <h2
+            class="font-['Space_Grotesk'] text-4xl md:text-6xl font-bold text-black mb-4"
+          >
+            Pengalaman Organisasi
+          </h2>
+          <p class="text-xl text-gray-800 max-w-2xl mx-auto font-medium">
+            Perjalanan saya dalam berorganisasi dan berkontribusi
+          </p>
+        </div>
+
+        <div class="relative">
+          <!-- Timeline Line -->
+          <div
+            class="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-black"
+          ></div>
+
+          <!-- Timeline Items -->
+          <div class="space-y-12">
+            <!-- Item 1 -->
+            <div class="relative scroll-reveal">
+              <div
+                class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 bg-[#ff6b6b] border-4 border-black neo-shadow z-10"
+              ></div>
+              <div class="md:w-1/2 md:pr-12 md:text-right md:ml-auto">
+                <div
+                  class="neo-card bg-white border-4 border-black p-6 hover:translate-x-2 transition-transform"
+                >
+                  <div
+                    class="inline-block bg-[#ff6b6b] text-black px-3 py-1 font-bold text-sm mb-2 border-2 border-black"
+                  >
+                    Jan 2024 - Dec 2024
+                  </div>
+                  <h3 class="font-['Space_Grotesk'] text-2xl font-bold mb-2">
+                    Bendahara Cabang Kaliabang
+                  </h3>
+                  <h4 class="font-bold text-lg mb-2">
+                    Himpunan Mahasiswa Teknologi Informasi
+                  </h4>
+                  <p class="text-gray-700 font-medium">
+                    Mengelola keuangan organisasi, menyusun laporan keuangan,
+                    serta memastikan penggunaan anggaran berjalan transparan dan
+                    terstruktur.
+                  </p>
+                  <div class="mt-3 flex flex-wrap gap-2 justify-end">
+                    <span
+                      class="bg-[#4ecdc4] border-2 border-black px-2 py-1 text-xs font-bold"
+                      >Manajemen Keuangan</span
+                    >
+                    <span
+                      class="bg-[#ffe66d] border-2 border-black px-2 py-1 text-xs font-bold"
+                      >Administrasi</span
+                    >
+                    <span
+                      class="bg-[#aa96da] border-2 border-black px-2 py-1 text-xs font-bold"
+                      >Komunikasi</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="relative scroll-reveal">
+              <div
+                class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 bg-[#4ecdc4] border-4 border-black neo-shadow z-10"
+              ></div>
+              <div class="md:w-1/2 md:pl-12">
+                <div
+                  class="neo-card bg-white border-4 border-black p-6 hover:translate-x-[-8px] transition-transform"
+                >
+                  <div
+                    class="inline-block bg-[#4ecdc4] text-black px-3 py-1 font-bold text-sm mb-2 border-2 border-black"
+                  >
+                    Jan 2025 - Dec 2025
+                  </div>
+                  <h3 class="font-['Space_Grotesk'] text-2xl font-bold mb-2">
+                    Divisi IT
+                  </h3>
+                  <h4 class="font-bold text-lg mb-2">
+                    Karang Taruna Rw 012 Rorotan
+                  </h4>
+                  <p class="text-gray-700 font-medium">
+                    Mendukung kebutuhan teknologi organisasi melalui pengelolaan
+                    sistem, pengembangan media digital, dan pemecahan masalah
+                    teknis.
+                  </p>
+                  <div class="mt-3 flex flex-wrap gap-2">
+                    <span
+                      class="bg-[#ff6b6b] border-2 border-black px-2 py-1 text-xs font-bold"
+                      >Problem Solving</span
+                    >
+                    <span
+                      class="bg-[#ffe66d] border-2 border-black px-2 py-1 text-xs font-bold"
+                      >Design</span
+                    >
+                    <span
+                      class="bg-[#f38181] border-2 border-black px-2 py-1 text-xs font-bold"
+                      >Kerjasama Tim</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="relative scroll-reveal">
+              <div
+                class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-8 h-8 bg-[#ffe66d] border-4 border-black neo-shadow z-10"
+              ></div>
+              <div class="md:w-1/2 md:pr-12 md:text-right md:ml-auto">
+                <div
+                  class="neo-card bg-white border-4 border-black p-6 hover:translate-x-2 transition-transform"
+                >
+                  <div
+                    class="inline-block bg-[#ffe66d] text-black px-3 py-1 font-bold text-sm mb-2 border-2 border-black"
+                  >
+                    Jan 2025 - Dec 2025
+                  </div>
+                  <h3 class="font-['Space_Grotesk'] text-2xl font-bold mb-2">
+                    Bendahara Umum
+                  </h3>
+                  <h4 class="font-bold text-lg mb-2">
+                    Himpunan Mahasiswa Teknologi Informasi
+                  </h4>
+                  <p class="text-gray-700 font-medium">
+                    Mengawasi pengelolaan keuangan organisasi, menyusun anggaran
+                    kegiatan, dan menjaga akuntabilitas serta ketertiban
+                    administrasi.
+                  </p>
+                  <div class="mt-3 flex flex-wrap gap-2 justify-end">
+                    <span
+                      class="bg-[#aa96da] border-2 border-black px-2 py-1 text-xs font-bold"
+                      >Leadership</span
+                    >
+                    <span
+                      class="bg-[#95e1d3] border-2 border-black px-2 py-1 text-xs font-bold"
+                      >Budgetplanning</span
+                    >
+                    <span
+                      class="bg-[#4ecdc4] border-2 border-black px-2 py-1 text-xs font-bold"
+                      >Financial Management</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section
+      id="certificates"
+      class="py-20 px-4 sm:px-6 lg:px-8 bg-[#aa96da] border-b-4 border-black"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 scroll-reveal">
+          <div
+            class="inline-block bg-black text-white px-4 py-2 font-bold text-lg mb-4 border-4 border-white neo-shadow rotate-[-1deg]"
+          >
+            📜 SERTIFIKAT
+          </div>
+          <h2
+            class="font-['Space_Grotesk'] text-4xl md:text-6xl font-bold text-black mb-4"
+          >
+            Sertifikat & Penghargaan
+          </h2>
+          <p class="text-xl text-gray-800 max-w-2xl mx-auto font-medium">
+            Sertifikat dan pencapaian yang telah saya raih
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Certificate 1 -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 hover:scale-105 transition-transform duration-300 scroll-reveal group cursor-pointer"
+          >
+            <a href="img/basis data.pdf">
+              <div
+                class="bg-[#ff6b6b] border-4 border-black p-4 mb-4 text-center relative overflow-hidden"
+              >
+                <div
+                  class="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"
+                ></div>
+                <span
+                  class="text-5xl group-hover:rotate-12 transition-transform inline-block"
+                  ><img src="img/basis_data.png" alt=""
+                /></span>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <span
+                  class="bg-[#ffe66d] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >2024</span
+                >
+                <span
+                  class="bg-[#4ecdc4] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >Database</span
+                >
+              </div>
+              <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-2">
+                Basis Data
+              </h3>
+              <p class="text-gray-700 text-sm font-medium mb-3">
+                Sertifikasi Basis Data Oleh PT. Jidoka System Indonesia
+              </p>
+              <div
+                class="flex items-center gap-2 text-sm font-bold text-gray-600"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Course credentials
+              </div>
+            </a>
+          </div>
+
+          <!-- Certificate 2 -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 hover:scale-105 transition-transform duration-300 scroll-reveal group cursor-pointer"
+            style="transition-delay: 100ms"
+          >
+            <a href="img/python.pdf">
+              <div
+                class="bg-[#4ecdc4] border-4 border-black p-4 mb-4 text-center relative overflow-hidden"
+              >
+                <div
+                  class="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"
+                ></div>
+                <span
+                  class="text-5xl group-hover:rotate-12 transition-transform inline-block"
+                  ><img src="img/python.png" alt=""
+                /></span>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <span
+                  class="bg-[#ffe66d] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >2024</span
+                >
+                <span
+                  class="bg-[#f38181] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >Python</span
+                >
+              </div>
+              <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-2">
+                Programming Essentials in Python
+              </h3>
+              <p class="text-gray-700 text-sm font-medium mb-3">
+                Cisco Networking Academy program - Program sertifikasi python.
+              </p>
+              <div
+                class="flex items-center gap-2 text-sm font-bold text-gray-600"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Coursera Credential
+              </div>
+            </a>
+          </div>
+
+          <!-- Certificate 3 -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 hover:scale-105 transition-transform duration-300 scroll-reveal group cursor-pointer"
+            style="transition-delay: 200ms"
+          >
+            <a href="img/belajar_dasar_ai.pdf">
+              <div
+                class="bg-[#ffe66d] border-4 border-black p-4 mb-4 text-center relative overflow-hidden"
+              >
+                <div
+                  class="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"
+                ></div>
+                <span
+                  class="text-5xl group-hover:rotate-12 transition-transform inline-block"
+                  ><img src="img/ai.png" alt=""
+                /></span>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <span
+                  class="bg-[#ff6b6b] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >2025</span
+                >
+                <span
+                  class="bg-[#aa96da] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >AI</span
+                >
+              </div>
+              <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-2">
+                Artificial Intelegent
+              </h3>
+              <p class="text-gray-700 text-sm font-medium mb-3">
+                Pembelajaran Kecerdasan Buatan - Dicoding
+              </p>
+              <div
+                class="flex items-center gap-2 text-sm font-bold text-gray-600"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Course Credentials
+              </div>
+            </a>
+          </div>
+
+          <!-- Certificate 4 -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 hover:scale-105 transition-transform duration-300 scroll-reveal group cursor-pointer"
+          >
+            <a href="img/data_science.pdf">
+              <div
+                class="bg-[#f38181] border-4 border-black p-4 mb-4 text-center relative overflow-hidden"
+              >
+                <div
+                  class="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"
+                ></div>
+                <span
+                  class="text-5xl group-hover:rotate-12 transition-transform inline-block"
+                  ><img
+                    src="img/data_science.png"
+                    alt="data science - Dicoding"
+                /></span>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <span
+                  class="bg-[#4ecdc4] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >2025</span
+                >
+                <span
+                  class="bg-[#ffe66d] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >Data Science</span
+                >
+              </div>
+              <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-2">
+                Data Science
+              </h3>
+              <p class="text-gray-700 text-sm font-medium mb-3">
+                Dicoding - Sertifikasi dan pembelajaran data science.
+              </p>
+              <div
+                class="flex items-center gap-2 text-sm font-bold text-gray-600"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Coursera Credential
+              </div>
+            </a>
+          </div>
+
+          <!-- Certificate 5 -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 hover:scale-105 transition-transform duration-300 scroll-reveal group cursor-pointer"
+            style="transition-delay: 100ms"
+          >
+            <a href="img/React.pdf">
+              <div
+                class="bg-[#aa96da] border-4 border-black p-4 mb-4 text-center relative overflow-hidden"
+              >
+                <div
+                  class="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"
+                ></div>
+                <span
+                  class="text-5xl group-hover:rotate-12 transition-transform inline-block"
+                  ><img src="img/react.png" alt="Sertifikat React"
+                /></span>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <span
+                  class="bg-[#ff6b6b] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >2024</span
+                >
+                <span
+                  class="bg-[#95e1d3] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >Front End</span
+                >
+              </div>
+              <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-2">
+                React
+              </h3>
+              <p class="text-gray-700 text-sm font-medium mb-3">
+                Codepolitan - Sertifikasi pelatihan react js.
+              </p>
+              <div
+                class="flex items-center gap-2 text-sm font-bold text-gray-600"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Course Credentials
+              </div>
+            </a>
+          </div>
+
+          <!-- Certificate 6 -->
+          <div
+            class="neo-card bg-white border-4 border-black p-6 hover:scale-105 transition-transform duration-300 scroll-reveal group cursor-pointer"
+            style="transition-delay: 200ms"
+          >
+            <a href="img/idris-haidir-ali.pdf">
+              <div
+                class="bg-[#95e1d3] border-4 border-black p-4 mb-4 text-center relative overflow-hidden"
+              >
+                <div
+                  class="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"
+                ></div>
+                <span
+                  class="text-5xl group-hover:rotate-12 transition-transform inline-block"
+                  ><img
+                    src="img/sertifikat_hima.png"
+                    alt="Sertifikat Himpunan Mahasiswa Teknologi Informasi"
+                /></span>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <span
+                  class="bg-[#aa96da] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >2026</span
+                >
+                <span
+                  class="bg-[#f38181] border-2 border-black px-2 py-1 text-xs font-bold"
+                  >Organisasi</span
+                >
+              </div>
+              <h3 class="font-['Space_Grotesk'] text-xl font-bold mb-2">
+                Piagam Penghargaan
+              </h3>
+              <p class="text-gray-700 text-sm font-medium mb-3">
+                Sertifikasi Himpunan Mahasiswa Teknologi Informasi Ubsi
+              </p>
+              <div
+                class="flex items-center gap-2 text-sm font-bold text-gray-600"
+              >
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Sertifikat UBSI
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="py-20 px-4 sm:px-6 lg:px-8 bg-[#95e1d3] border-b-4 border-black"
+    >
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-16 scroll-reveal">
+          <div
+            class="inline-block bg-black text-white px-4 py-2 font-bold text-lg mb-4 border-4 border-white neo-shadow rotate-1"
+          >
+            📬 KONTAK
+          </div>
+          <h2
+            class="font-['Space_Grotesk'] text-4xl md:text-6xl font-bold text-black mb-4"
+          >
+            Mari Berkolaborasi!
+          </h2>
+          <p class="text-xl text-gray-800 max-w-2xl mx-auto font-medium">
+            Tertarik untuk bekerja sama? Hubungi saya melalui gmail atau
+            linkedIn di bawah ini.
+          </p>
+        </div>
+
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <a href="mailto:idris.haidir1@gmail.com">
+            <div
+              class="neo-card bg-white border-4 border-black p-6 text-center hover:translate-y-[-4px] transition-transform scroll-reveal"
+            >
+              <div
+                class="bg-[#ff6b6b] border-4 border-black w-12 h-12 mx-auto flex items-center justify-center mb-3 neo-shadow"
+              >
+                <span class="text-xl"
+                  ><img src="img/mail.png" alt="Gambar mail"
+                /></span>
+              </div>
+              <h3 class="font-bold text-lg">Email</h3>
+              <p class="font-medium text-gray-700">idris.haidir1@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/idris-haidir-ali-724a60296/">
+            <div
+              class="neo-card bg-white border-4 border-black p-6 text-center hover:translate-y-[-4px] transition-transform scroll-reveal"
+              style="transition-delay: 100ms"
+            >
+              <div
+                class="bg-[#4ecdc4] border-4 border-black w-12 h-12 mx-auto flex items-center justify-center mb-3 neo-shadow"
+              >
+                <span class="text-xl"
+                  ><img src="img/linkedin.png" alt=""
+                /></span>
+              </div>
+              <h3 class="font-bold text-lg">LinkedIn</h3>
+              <p class="font-medium text-gray-700">in/idris-haidir-ali</p>
+            </div>
+          </a>
+          <div
+            class="neo-card bg-white border-4 border-black p-6 text-center hover:translate-y-[-4px] transition-transform scroll-reveal"
+            style="transition-delay: 200ms"
+          >
+            <div
+              class="bg-[#ffe66d] border-4 border-black w-12 h-12 mx-auto flex items-center justify-center mb-3 neo-shadow"
+            >
+              <span class="text-xl"><img src="img/lokasi.png" alt="" /></span>
+            </div>
+            <h3 class="font-bold text-lg">Lokasi</h3>
+            <p class="font-medium text-gray-700">Jakarta, Indonesia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8 px-4 border-t-4 border-white">
+      <div
+        class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4"
+      >
+        <div class="font-['Space_Grotesk'] font-bold text-2xl">
+          IDRIS HAIDIR <span class="bg-white text-black px-2 py-1">ALI</span>
+        </div>
+        <div class="font-medium text-gray-400">
+          © 2026 IDRIS HAIDIR ALI. Built with ❤️ and Neobrutalism.
+        </div>
+        <div class="flex gap-4">
+          <a
+            href="https://github.com/idrishaidir"
+            class="hover:text-[#ff6b6b] transition-colors"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/idris-haidir-ali-724a60296/"
+            class="hover:text-[#4ecdc4] transition-colors"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button
+      id="scroll-top"
+      class="fixed bottom-8 right-8 bg-[#ff6b6b] border-4 border-black p-3 neo-shadow hover:translate-y-[-4px] transition-transform hidden z-50"
+    >
+      <svg
+        class="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 10l7-7m0 0l7 7m-7-7v18"
+        />
+      </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
